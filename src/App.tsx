@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import MenuPage from './pages/Menu';
 import Admin from './pages/Admin';
+import Blogs from './pages/Blogs';
 import './i18n';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/menu" element={<MenuPage />} />
+            <Route path="/blogs" element={<Blogs />} />
             <Route path="/admin" element={<Admin />} />
           </Routes>
         </main>

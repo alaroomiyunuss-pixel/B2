@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
              <h3 className="text-2xl font-bold text-[#853114] mb-4">هنا اليمن</h3>
              <p className="text-gray-500 mb-2">{t('footer.location')}</p>
-             <p className="text-gray-500">{t('footer.call')}: +31 6 12345678</p>
+             <p className="text-gray-500">{t('footer.call')}: +31638775118</p>
           </div>
           <div className="md:text-end rtl:md:text-start">
              <div className="flex flex-col gap-2">

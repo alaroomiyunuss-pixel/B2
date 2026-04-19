@@ -26,10 +26,10 @@ export default function OrderOptions({ onOpenBooking, onCloseModal }: OrderOptio
             <Calendar size={20} /> {t('order.book_btn')}
           </button>
           <div className="flex gap-3">
-            <a href="https://wa.me/31612345678" target="_blank" rel="noreferrer" className="flex-1 bg-gray-50 text-gray-700 py-3 rounded-xl flex justify-center items-center gap-2 border border-gray-100 hover:bg-green-50 transition-colors">
+            <a href="https://wa.me/31638775118" target="_blank" rel="noreferrer" className="flex-1 bg-gray-50 text-gray-700 py-3 rounded-xl flex justify-center items-center gap-2 border border-gray-100 hover:bg-green-50 transition-colors">
               <MessageCircle size={18} className="text-green-500" /> {t('order.whatsapp')}
             </a>
-            <a href="tel:+31612345678" className="flex-1 bg-gray-50 text-gray-700 py-3 rounded-xl flex justify-center items-center gap-2 border border-gray-100 hover:bg-blue-50 transition-colors">
+            <a href="tel:+31638775118" className="flex-1 bg-gray-50 text-gray-700 py-3 rounded-xl flex justify-center items-center gap-2 border border-gray-100 hover:bg-blue-50 transition-colors">
               <Phone size={18} className="text-blue-500" /> {t('order.call')}
             </a>
           </div>
@@ -48,10 +48,10 @@ export default function OrderOptions({ onOpenBooking, onCloseModal }: OrderOptio
             <Globe size={20} /> {t('order.pickup_btn')}
           </Link>
           <div className="flex gap-3">
-            <a href="https://wa.me/31612345678" target="_blank" rel="noreferrer" className="flex-1 bg-gray-50 text-gray-700 py-3 rounded-xl flex justify-center items-center gap-2 border border-gray-100 hover:bg-green-50 transition-colors">
+            <a href="https://wa.me/31638775118" target="_blank" rel="noreferrer" className="flex-1 bg-gray-50 text-gray-700 py-3 rounded-xl flex justify-center items-center gap-2 border border-gray-100 hover:bg-green-50 transition-colors">
               <MessageCircle size={18} className="text-green-500" /> {t('order.whatsapp')}
             </a>
-            <a href="tel:+31612345678" className="flex-1 bg-gray-50 text-gray-700 py-3 rounded-xl flex justify-center items-center gap-2 border border-gray-100 hover:bg-blue-50 transition-colors">
+            <a href="tel:+31638775118" className="flex-1 bg-gray-50 text-gray-700 py-3 rounded-xl flex justify-center items-center gap-2 border border-gray-100 hover:bg-blue-50 transition-colors">
               <Phone size={18} className="text-blue-500" /> {t('order.call')}
             </a>
           </div>
