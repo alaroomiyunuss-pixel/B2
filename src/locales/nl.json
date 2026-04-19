@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Welkom bij Hana Al-Yemen",
+    "subtitle": "De authentieke smaak van Jemen in het hart van Nederland"
+  },
+  "order": {
+    "book_table": "Tafel reserveren",
+    "book_desc": "Geniet van een verfijnde sfeer en uitzonderlijke service...",
+    "book_btn": "Reserveer Nu",
+    "whatsapp": "WhatsApp",
+    "call": "Bellen",
+    "pickup": "Afhalen bij Restaurant",
+    "pickup_desc": "Bestel vooruit en haal je favoriete maaltijd vers op...",
+    "pickup_btn": "Bestel Nu",
+    "delivery": "Bezorgservice",
+    "delivery_desc": "Geniet van onze heerlijke gerechten in het comfort van je huis...",
+    "delivery_thuisbezorgd": "Bestel via Thuisbezorgd",
+    "delivery_uber": "Uber Eats",
+    "soon": "Binnenkort"
+  },
+  "about": {
+    "story": "Ons Verhaal",
+    "desc": "Wij bieden u de meest authentieke Jemenitische gerechten, overgeërfd door generaties heen en met liefde bereid.",
+    "halal": "100% Halal",
+    "fresh": "Vers Eten"
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden aan Hana Al-Yemen Restaurant © 2026",
+    "location": "Adres: Het hart van Nederland",
+    "call": "Bel ons"
+  }
+}

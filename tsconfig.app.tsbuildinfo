@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/i18n.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/bookingmodal.tsx","./src/components/footer.tsx","./src/components/navbar.tsx","./src/components/ordermodal.tsx","./src/components/orderoptions.tsx","./src/firebase/config.ts","./src/pages/admin.tsx","./src/pages/home.tsx","./src/pages/menu.tsx"],"version":"6.0.3"}

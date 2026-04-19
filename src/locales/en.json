@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Welcome to Hana Al-Yemen",
+    "subtitle": "Authentic Yemeni Taste in the Heart of the Netherlands"
+  },
+  "order": {
+    "book_table": "Book a Table",
+    "book_desc": "Enjoy a refined atmosphere and exceptional service...",
+    "book_btn": "Book Now (Online Form)",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "pickup": "Pickup from Restaurant",
+    "pickup_desc": "Order ahead and pick up your favorite meal fresh...",
+    "pickup_btn": "Order Now",
+    "delivery": "Delivery Service",
+    "delivery_desc": "Enjoy our delicious dishes in the comfort of your home...",
+    "delivery_thuisbezorgd": "Order via Thuisbezorgd",
+    "delivery_uber": "Uber Eats",
+    "soon": "Soon"
+  },
+  "about": {
+    "story": "Our Story",
+    "desc": "We offer you the most authentic Yemeni dishes inherited through generations, prepared with love and care.",
+    "halal": "100% Halal",
+    "fresh": "Fresh Food"
+  },
+  "footer": {
+    "rights": "All rights reserved for Hana Al-Yemen Restaurant © 2026",
+    "location": "Address: The heart of the Netherlands",
+    "call": "Call Us"
+  }
+}
