@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Download } from 'lucide-react';
 import { doc, getDoc } from 'firebase/firestore';
-import { db } from '../firebase/config';
+import { db, isMock } from '../firebase/config';
 import { useTranslation } from 'react-i18next';
 
 export default function MenuPdfButton() {
@@ -11,6 +11,7 @@ export default function MenuPdfButton() {
   useEffect(() => {
     const fetchPdf = async () => {
       try {
+        if(isMock) throw new Error("Mock");
         const d = await getDoc(doc(db, 'site_settings', 'general'));
         if (d.exists() && d.data().menuPdfUrl) {
           setPdfUrl(d.data().menuPdfUrl);

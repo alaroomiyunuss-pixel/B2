@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 import { collection, getDocs, query, limit } from 'firebase/firestore';
-import { db } from '../firebase/config';
+import { db, isMock } from '../firebase/config';
 import { Star, Quote } from 'lucide-react';
 
 export default function Testimonials() {
@@ -13,6 +13,7 @@ export default function Testimonials() {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
+        if(isMock) throw new Error("Mock");
         const q = query(collection(db, 'reviews'), limit(3));
         const snap = await getDocs(q);
         const fetched: any[] = [];

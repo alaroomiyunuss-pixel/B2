@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { collection, getDocs, query, limit, orderBy } from 'firebase/firestore';
-import { db } from '../firebase/config';
+import { db, isMock } from '../firebase/config';
 import { Link } from 'react-router-dom';
 import { Calendar, ChevronRight, ChevronLeft } from 'lucide-react';
 
@@ -13,6 +13,7 @@ export default function LatestBlogs() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
+        if(isMock) throw new Error("Mock");
         const q = query(collection(db, 'blogs'), orderBy('date', 'desc'), limit(3));
         const snap = await getDocs(q);
         const fetched: any[] = [];

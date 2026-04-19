@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { collection, getDocs, query, orderBy } from 'firebase/firestore';
-import { db } from '../firebase/config';
+import { db, isMock } from '../firebase/config';
 import { Calendar } from 'lucide-react';
 
 export default function Blogs() {
@@ -12,6 +12,7 @@ export default function Blogs() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
+        if(isMock) throw new Error("Mock");
         const q = query(collection(db, 'blogs'), orderBy('date', 'desc'));
         const snap = await getDocs(q);
         const fetched: any[] = [];

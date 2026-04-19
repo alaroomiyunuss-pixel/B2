@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../firebase/config';
+import { db, isMock } from '../firebase/config';
 
 export default function Gallery() {
   const { i18n } = useTranslation();
@@ -12,6 +12,7 @@ export default function Gallery() {
   useEffect(() => {
     const fetchGallery = async () => {
       try {
+        if(isMock) throw new Error("Mock");
         const snap = await getDocs(collection(db, 'gallery_images'));
         const imgs: string[] = [];
         snap.forEach(d => imgs.push(d.data().url));
